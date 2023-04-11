@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
 import Charge1 from './Images/Charge1.png'
 
 const Title = styled.div`

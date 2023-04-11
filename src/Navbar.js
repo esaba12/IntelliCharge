@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react'
+import React, from 'react'
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
 
 
 const Wrapper = styled.nav`
@@ -56,16 +55,7 @@ const Center = styled.div`
     float: left;
   }
   `
-
-const Menu = styled.ul`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding:0;
-  margin:0;
-  list-style-type: none;
-`
-
+  
 const Logo = styled.button`
 border: none;
 background: none;
