@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Navbar from './Navbar';
-import Main from './main';
+import Main from './Main';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './About';
 import Buy from './Buy';
