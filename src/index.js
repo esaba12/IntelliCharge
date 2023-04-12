@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Navbar from './Navbar';
-import Main from './Main';
+import Main from './main';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './About';
 import Buy from './Buy';
@@ -15,8 +15,8 @@ root.render(
     <Router>
       <Routes>
         <Route index element={<Main />} />
-        <Route path="about" element={<About />} />
-        <Route path="shop" element={<Buy />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/shop" element={<Buy />} />
       </Routes>
     </Router>
 
