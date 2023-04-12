@@ -1,4 +1,4 @@
-import React, from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 
@@ -55,7 +55,7 @@ const Center = styled.div`
     float: left;
   }
   `
-  
+
 const Logo = styled.button`
 border: none;
 background: none;
@@ -84,6 +84,7 @@ const Navbar = () => {
                 </Logo>
               </Center>
               <Right>
+                <Logo as="a" href="/about">About</Logo>
               </Right>
             </Nav>  
           </Container>

@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
 import Charge3 from './Images/Charge3.png'
 import Charge4 from './Images/Charge4.png'
 import Charge1 from './Images/Charge1.png'
@@ -9,6 +8,7 @@ const Title = styled.div`
 float: left;
 font-weight: bold;
 font-size: 5em;
+color: #2C3E50;
 a {
   font-size: inherit;
   font-weight: inherit;
@@ -47,20 +47,22 @@ const ProdTitle = styled.div`
   margin-left: 3em;
   font-weight: bold;
   font-size: 1.5em;
+  color: #2C3E50;
 `
 
 const ProdSub = styled.div`
   margin: 2em;
   font-size: 1em;
+  color: #2C3E50;
 `
 
 const BuyButton = styled.button`
   background: none;
-  color: grey;
+  color: #5BC0EB;
   font-size: 1em;
   margin: 2em;
   padding: 0.25em 1em;
-  border: 2px solid grey;
+  border: 2px solid #5BC0EB;
   border-radius: 3px;
 `;
 

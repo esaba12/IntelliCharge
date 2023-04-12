@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
 import Charge1 from './Images/Charge1.png'
 
 const BackImg = styled.div`
@@ -18,7 +17,7 @@ const Title = styled.div`
 color: #2C3E50;
 float: left;
 font-weight: bold;
-font-size: 5em;
+font-size: 4em;
 a {
   font-size: inherit;
   font-weight: inherit;
@@ -66,7 +65,7 @@ const Main = () => {
            <img src={Charge1} alt="Charger"/>
         </BackImg>
         <Title>
-            The World's First Wireless Car Charger
+            IntelliCharge: The World's First Wireless Car Charger
         </Title>
         <Subtext>
           Powered by state of the art RapidTransfer® Coils, Intellicharge is the most revolutionary level 2 charger on the market

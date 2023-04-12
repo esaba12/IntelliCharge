@@ -7,6 +7,7 @@ float: left;
 font-weight: bold;
 font-size: 5em;
 margin: 0.5em;
+color: #2C3E50;
 a {
   font-size: inherit;
   font-weight: inherit;
@@ -31,6 +32,7 @@ margin-top: -17em;
 margin-right: 5em;
 float: left;
 font-size: 2em;
+color: #2C3E50;
 a {
   font-size: inherit;
   font-weight: inherit;
@@ -49,7 +51,7 @@ const About = () => {
             <img src={Charge1} alt="Charger"/>
         </Title>
         <Subtext>
-          Intellicharge is a personal project made by Ethan Saba for the demonstration of a webapp to David Shadi. 
+          Intellicharge is a personal project made by Ethan Saba for the demonstration of a webapp to David Shadi. The frontend is all made with React.JS, with the images render by DALL-E AI, and the color scheme by ChatGPT.
         </Subtext>
       </>
       )}
